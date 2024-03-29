@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(32, 32, 32);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+.navbar li{
+    float: left;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    float: left;
+    margin-right: 16px;
+}
+
+.cover {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
